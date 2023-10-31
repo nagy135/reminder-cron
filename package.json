@@ -1,0 +1,15 @@
+{
+  "name": "reminder-cron",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/node-cron": "^3.0.10",
+    "node-cron": "^3.0.2"
+  }
+}
